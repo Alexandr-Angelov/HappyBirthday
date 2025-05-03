@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <script>
+            function checkPassword() {
+                var password = document.getElementById("passwordBox");
+                var passwordText = password.value;
+                if(passwordText == "6753") {
+                    return true;
+                }
+                alert("Не правильный пороль где то ошибка");
+                return false;
+            }
+        </script>
+    </head>
+    <header>
+        <a class="podzkaska" href="index3.html">1 подсказка</a>
+        <a class="podzkaska" href="index4.html">2 подсказка</a>
+        <a class="podzkaska" href="index5.html">3 подсказка</a>
+        <a class="podzkaska" href="index6.html">4 подсказка</a>
+    </header>
+    <body>
+        <main>
+            <p>Я узнал где код он разбросон по всей квартире он есть в моей комнате,зале,в вашей спальне и на болконе там всего 4 цифры</p>
+            <p>Пароль:<input id="passwordBox" type="password"/></p>
+            <a href="index2.html" onclick="return checkPassword();">Если узнал код кликни сюда</a>
+        </main>
+    </body>
+</html>

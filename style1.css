@@ -1,0 +1,19 @@
+a {
+    color: rgb(27, 90, 60);
+    text-decoration: none;
+    font-size: 15px;
+}
+.podzkaska {
+    color: blueviolet;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 10px;
+}
+body {
+    background-color: blue;
+}
+p {
+    font-size: 25px;
+    font-family: fantasy;
+}
